@@ -1,20 +1,15 @@
-
 {
   "name": "react-native-installed-apps",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "API to retrieve installed packages using native built-ins.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
-    "react-native"
+      "react-native",
+      "installs",
+      "apps",
+      "packages",
+      "device"
   ],
-  "author": "",
-  "license": "",
-  "peerDependencies": {
-    "react-native": "^0.29.0",
-    "react-native-windows": "^0.29.0"
-
-  }
+  "license": "MIT",
+  "author": "Jeff Stokes <jeffecu88@gmail.com>"
 }
