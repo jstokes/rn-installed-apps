@@ -1,9 +1,7 @@
-import { NativeModules } from 'react-native';
-
-const { RNInstalledApps } = NativeModules.RNInstalledApps;
+var RNInstalledApps = require('react-native').NativeModules.RNInstalledApps;
 
 module.exports = {
-    installedApp: function() {
-        return RNInstalledApps.installedApp;
+    getApps: function() {
+        return RNInstalledApps.getApps;
     }
 };

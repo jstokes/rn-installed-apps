@@ -45,7 +45,7 @@ public class RNInstalledAppsModule extends ReactContextBaseJavaModule {
     public @Nullable Map<String, Object> getConstants() {
         Map<String, Object> constants = new HashMap<>();
 
-        constants.put("installedApps", getApps());
+        constants.put("getApps", getApps());
         return constants;
     }
 }
