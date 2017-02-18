@@ -1,13 +1,13 @@
 
-# react-native-installed-apps
+# react-native-installed-packages
 
 ## Getting started
 
-`$ npm install react-native-installed-apps --save`
+`$ npm install react-native-installed-packages --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-installed-apps`
+`$ react-native link react-native-installed-packages`
 
 ### Manual installation
 
@@ -19,17 +19,17 @@
   - Add `new RNInstalledAppsPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-installed-apps'
-  	project(':react-native-installed-apps').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-installed-apps/android')
+  	include ':react-native-installed-packages'
+  	project(':react-native-installed-packages').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-installed-packages/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-installed-apps')
+      compile project(':react-native-installed-packages')
   	```
 
 ## Usage
 ```javascript
-var InstalledApps = require('react-native-installed-apps');
+var InstalledApps = require('react-native-installed-packages');
 
 console.log("Installed packages", InstalledApps.getApps);
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "react-native-installed-apps",
+  "name": "react-native-installed-packages",
   "version": "0.0.1",
   "description": "API to retrieve installed packages using native built-ins.",
   "main": "index.js",
