@@ -32,6 +32,6 @@
 var InstalledApps = require('react-native-installed-packages');
 
 console.log("All packages", InstalledApps.getApps);
-console.log("User package", InstalledApps.getNonSystemApps);
+console.log("User packages", InstalledApps.getNonSystemApps);
 ```
   
