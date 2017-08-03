@@ -1,6 +1,6 @@
 {
   "name": "react-native-installed-packages",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "API to retrieve installed packages using native built-ins.",
   "main": "index.js",
   "repository": {
