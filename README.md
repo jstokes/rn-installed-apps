@@ -20,7 +20,7 @@
 2. Append the following lines to `android/settings.gradle`:
   	```
   	include ':react-native-installed-packages'
-  	project(':react-native-installed-packages').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-installed-packages/android')
+  	project(':react-native-installed-packages').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-installed-packages/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
