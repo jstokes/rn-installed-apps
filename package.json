@@ -1,19 +1,19 @@
 {
-  "name": "react-native-installed-packages",
-  "version": "0.1.1",
-  "description": "API to retrieve installed packages using native built-ins.",
-  "main": "index.js",
-  "repository": {
-      "type": "git",
-      "url": "https://github.com/jstokes/rn-installed-apps"
-  },
-  "keywords": [
-      "react-native",
-      "installs",
-      "apps",
-      "packages",
-      "device"
-  ],
-  "license": "MIT",
-  "author": "Jeff Stokes <jeffecu88@gmail.com>"
+    "name": "react-native-installed-packages",
+    "version": "0.2.0",
+    "description": "API to retrieve installed packages using native built-ins.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jstokes/rn-installed-apps"
+    },
+    "keywords": [
+        "react-native",
+        "installs",
+        "apps",
+        "packages",
+        "device"
+    ],
+    "license": "MIT",
+    "author": "Jeff Stokes <jeffecu88@gmail.com>"
 }
