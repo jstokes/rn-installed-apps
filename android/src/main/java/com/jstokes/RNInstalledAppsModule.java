@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package com.jstokes;
 
 import android.content.pm.PackageInfo;
 import android.content.pm.ApplicationInfo;
